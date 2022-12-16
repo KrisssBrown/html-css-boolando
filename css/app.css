@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: grey;
+}
+
+footer{
+    background-color: grey;
+}
+
+.main-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col-img>img{
+    max-height: 300px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 100px;
+}
+
+
+/* *********************
+DEBUG
+Delete body class "debug" to deactivate
+********************* */
+
+.debug .main-container {
+    background-color: aqua;
+    min-height: 100px;
+}
