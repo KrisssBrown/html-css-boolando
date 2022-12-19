@@ -89,6 +89,7 @@ footer{
     top: 5px;
     right: 0px;
     text-align: center;
+    z-index: 999;
 }
 
 .discount, .eco{
@@ -112,6 +113,7 @@ footer{
     gap: 5px;
     display: flex;
     font-size: 12px;
+    z-index: 999;
 }
 
 .col-desc .desc-title{
@@ -133,29 +135,16 @@ footer{
     color: white;
 }
 
+.box-img img{
+    max-height: 410px; 
+    display: flex;
+    justify-content: space-between;
+}
 
-.hover1:hover{
+.box-img img{
     background-image: url(../img/1b.webp);
-    }
-
-.hover2:hover{
-    background-image: url(../img/2b.webp);
-}
-
-.hover3:hover{
-    background-image: url(../img/3b.webp);
-    
-}    
-.hover4:hover{
-    background-image: url(../img/4b.webp);
-}
-
-.hover5:hover{
-    background-image: url(../img/5b.webp);
-}
-
-.hover6:hover{
-    background-image: url(../img/6b.webp);
+    position: relative;
+    z-index: 2;
 }
 
 
